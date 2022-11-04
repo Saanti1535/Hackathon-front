@@ -1,0 +1,8 @@
+.flag-match {
+    margin: 15px;
+}
+.teams {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}

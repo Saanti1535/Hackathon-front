@@ -1,0 +1,28 @@
+<mat-toolbar color="primary">
+    <span class="fill-remaining-space">My Reactive Form with Material</span>
+</mat-toolbar>
+<mat-tab-group mat-align-tabs="start">
+    <mat-tab label="First">
+        <mat-list>
+            <div mat-subheader>Folders</div>
+            <mat-list-item layout="row">
+                <div layout="column" class="flag-match">
+                    <mat-icon mat-list-icon>folder</mat-icon>
+                    <mat-icon mat-list-icon>folder</mat-icon>
+                </div>
+                
+                <div layout="column">
+                    <mat-radio-group aria-label="Select an option" layout="row" class="teams">
+                        <mat-radio-button value="1">Argentina</mat-radio-button>
+                        <mat-radio-button value="2">empate</mat-radio-button>
+                        <mat-radio-button value="2">brasil</mat-radio-button>
+                    </mat-radio-group>
+                </div>
+            </mat-list-item>
+            
+            <mat-divider></mat-divider>
+          </mat-list>              
+    </mat-tab>
+    <mat-tab label="Second">Content 2</mat-tab>
+    <mat-tab label="Third">Content 3</mat-tab>
+  </mat-tab-group>
